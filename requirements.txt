@@ -1,0 +1,4 @@
+Flask
+regex
+gunicorn
+mlphon>=2.0.0
