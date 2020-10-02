@@ -1,2 +1,3 @@
 ENV*/*
-___pycache__/
+__pycache__/*
+.python-version
