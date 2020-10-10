@@ -68,7 +68,7 @@ function showIPA(results) {
   for (let i = 0; i < results.IPA.length; i++) {
     let IPA = document.createElement("span");
     IPA.className = "IPA";
-    IPA.innerText = results.IPA[i][0];
+    IPA.innerText = results.IPA[i];
     resultsContainer.appendChild(IPA);
   }
 }

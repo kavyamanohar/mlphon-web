@@ -1,4 +1,4 @@
 Flask
 regex
 gunicorn
-mlphon>=2.0.0
+mlphon>=3.0.0

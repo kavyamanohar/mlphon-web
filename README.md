@@ -1,6 +1,6 @@
 
 
-# Web interface for mlphon Malayalam Phonetic Analyser and Generator
+# Web interface for mlphon: Malayalam Phonetic Analyser and Generator
 
 Flask based web interface for Malayalam Phonetic analyser and generator
 
