@@ -71,9 +71,9 @@ def getipa():
 def g2p_generate():
     grapheme_generate = {}
     text = request.args.get("text")
-    g2p = G2P()
-    graphemes = g2p.generate(text)
-    return jsonify(graphemes)
+    mlphon = PhoneticAnalyser()
+    graphemes = mlphon.phoneme_to_grapheme(text)
+    return jsonify({"text": text, "IPA": graphemes})
 
 
 if __name__ == "__main__":
